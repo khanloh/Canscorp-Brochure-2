@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANSCORP Healthcare Brochure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333333;
+        }
+        .brochure {
+            display: flex;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        .panel {
+            flex: 1;
+            background: #FFFFFF;
+            padding: 15px;
+            border-right: 1px solid #E0E0E0;
+            font-size: 0.9rem;
+        }
+        .panel:last-child {
+            border-right: none;
+        }
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #003087;
+            margin: 0 0 10px;
+        }
+        h1 {
+            font-size: 1.6rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+        }
+        p, ul {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            margin: 5px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .front, .back {
+            text-align: center;
+            background: #003087;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .front h1, .back h1 {
+            color: #FFFFFF;
+        }
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #007A7C;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #005F5E;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="front">
+        <h1>CANSCORP: MEP Solutions for Healthcare</h1>
+        <p><em>Engineering a Healthier Future</em></p>
+        <img src="https://i.postimg.cc/c4HH5DBr/Camscorp-Company-Image.png" alt="Female model in healthcare setting">
+        <p>Precision and innovation for healthcare facilities.</p>
+    </div>
+
+    <div class="brochure">
+        <div class="panel">
+            <h2>Tailored MEP Services</h2>
+            <ul>
+                <li><strong>Electrical Systems</strong>: Power for critical healthcare needs.</li>
+                <li><strong>HVAC Systems</strong>: Superior air quality and comfort.</li>
+                <li><strong>Fire Safety</strong>: Protecting lives with advanced systems.</li>
+                <li><strong>Plumbing</strong>: Reliable water and waste solutions.</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Female engineer with equipment">
+        </div>
+
+        <div class="panel">
+            <h2>Innovative Products & Green Solutions</h2>
+            <ul>
+                <li><strong>Air Handling Units</strong>: Clean, efficient air flow.</li>
+                <li><strong>Solar EPC</strong>: Sustainable energy options.</li>
+                <li><strong>Water Treatment</strong>: ETP, STP, and WTP expertise.</li>
+            </ul>
+            <img src="https://i.postimg.cc/W38N5rDG/beautiful-young-engineer-near-solar-260nw-725232136.webp" alt="Female with solar panels">
+        </div>
+
+        <div class="panel">
+            <h2>Connect with CANSCORP</h2>
+            <p><strong>Contact Details:</strong></p>
+            <p>Website: <a href="https://www.canscorp.com/">canscorp.com</a></p>
+            <p>Email: <a href="mailto:info@canscorp.com">info@canscorp.com</a></p>
+            <p>Phone: +91 7208044421</p>
+            <p><strong>Commitment:</strong> Delivering excellence in every project.</p>
+            <a href="https://www.canscorp.com/" target="_blank" class="cta-button">Discover More</a>
+            <img src="https://i.postimg.cc/c4HH5DBr/Camscorp-Company-Image.png" alt="Female in professional pose">
+        </div>
+    </div>
+
+    <div class="back">
+        <h1>CANSCORP: Your MEP Ally</h1>
+        <p>Empowering healthcare with trusted solutions.</p>
+        <a href="https://www.canscorp.com/" target="_blank" class="cta-button">Get in Touch</a>
+        <img src="https://i.postimg.cc/QC6Md5h8/femal-in-proffesional-office.jpg" alt="Female in modern office">
+    </div>
+</body>
+</html>
